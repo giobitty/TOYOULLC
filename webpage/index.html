@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Document</title>
+</head>
+<body>
+    <!-- image in the top position fit that will disappear when the page is scrolled down -->
+    <div class="videoContainer" id="videoContainer" name="videoContainer" >
+        <!-- autoplay muted loop to reproduce the video -->
+        <video src="img/3755352-uhd_4096_2160_25fps.mp4" autoplay muted loop></video>    
+    </div>
+    <!-- sections that will appear from under the video
+     First section will be about the grains
+    -->
+    <section class="section" id="grains">
+        <h1 class="title">Our Products</h1>
+        <div class="card-container">
+            <div class="card">
+                <video class="card-video" src="img/sesameseeds.mp4" autoplay loop muted ></video>
+                <div class="card-content">
+                    <h2 class="card-title">Sesame seed</h2>
+                    <p class="card-description">Elevate your product line with our Sesame Seeds, available in bulk. Rich in flavor and nutrients, these seeds are ideal for bakeries, restaurants, and snack manufacturers. Our sesame seeds are sourced from sustainable farms, ensuring quality and freshness. Perfect for salads, toppings, and specialty dishes. Contact us for bulk pricing!</p>
+                    <a href="#" class="card-button">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/riceCrop.jpg" alt="rice" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Rice</h2>
+                    <p class="card-description">
+                        Source high-quality Long-Grain Rice in bulk for your business needs. Our premium rice offers exceptional fluffiness and versatility, perfect for restaurants, catering services, and food manufacturers. Grown in ideal conditions, our rice is non-GMO and gluten-free, ensuring you provide the best to your customers. Competitive pricing for large orders!
+                    </p>
+                    <a href="#" class="card-button">Read More</a>
+                </div>
+            </div>
+            <div class="card">
+                <img src="img/corn.jpg" alt="corn field" class="card-image">
+                <div class="card-content">
+                    <h2 class="card-title">Corn</h2>
+                    <p class="card-description">Offer your customers the delightful taste of Fresh Sweet Corn in bulk. Perfect for food service operations and processed food manufacturers, our sweet corn is harvested at peak ripeness to guarantee flavor and sweetness. Non-GMO and available in various forms, including kernels and cobs. Get competitive wholesale rates for your business!</p>
+                    <a href="#" class="card-button">Read More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- second section will have details about the farmers and external link to the project in Chad
+    with a gallery of images 
+    -->
+    <section id="farmers">
+
+    </section>
+    <!-- footer section with contact , about and email form -->
+    <footer>
+        <h2>Contact Us</h2>
+        <p>Email: toyou.info@proton.com </p>
+        <form>
+            <label for="email">Subscribe:</label>
+            <input type="email" id="email" name="email" required>
+            <button type="submit">Submit</button>
+        </form>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
